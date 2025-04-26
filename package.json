@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/price.js",
+    "start": "node dist/price.js && node dist/normalize.js",
     "dev": "tsc -w"
   },
   "keywords": [
